@@ -109,7 +109,6 @@ def main(br, bt, bp, conf_disambig, bitmap, fits_file):
     total_fz, total_bsq, eps_z, _ = field.lorentz_force()
 
     computed = {
-        'CDELT_ARC': header.cdelt_arcsec,
         'NET_CURRENT': net_current,
         'TOT_UNSIGNED_CURRENT': total_unsigned_current,
         'MEAN_JZ': mean_jz,
