@@ -113,7 +113,7 @@ def main(br, bt, bp, conf_disambig, bitmap, fits_file):
         'TOT_UNSIGNED_CURRENT': total_unsigned_current,
         'MEAN_JZ': mean_jz,
         'STD_TWIST': std_twist,
-        'TOT_ABS_TWIST': total_abs_twist,
+        'TOTABSTWIST': total_abs_twist,
         'TOP10_TWIST': top10_twist,
         'EPSZ': eps_z,
         'TOTBSQ': total_bsq,
